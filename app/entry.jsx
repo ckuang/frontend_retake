@@ -1,8 +1,7 @@
 var ReactDOM = require("react-dom")
 var React = require('react')
 import {browserHistory, IndexRoute, Router, Route} from 'react-router'
-var Restaurants = require("./restaurants.jsx")
-var Restaurant = require('./restaurant.jsx')
+
 
 
 let App = React.createClass({
@@ -16,5 +15,6 @@ let App = React.createClass({
 })
 
 ReactDOM.render(
-
+  <App />,
+  document.getElementById('root')
 )

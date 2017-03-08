@@ -1,19 +1,19 @@
-let restaurants = require('./restaurant.js')
-let reviews = require('./review.js')
-let Restaurant = require('../models').Restaurant
-let Review = require('../models').Review
+let persons = require('./person.js')
+let experiences = require('./experience.js')
+let Person = require('../models').Person
+let Experience = require('../models').Experience
 
 const seedyFunction = () => {
-  Restaurant.create(restaurants[0])
-  Restaurant.create(restaurants[1])
-  Restaurant.create(restaurants[2])
-  Restaurant.create(restaurants[3])
+  Person.create(persons[0])
+  Person.create(persons[1])
+  Person.create(persons[2])
 
-  Review.create(reviews[0])
-  Review.create(reviews[1])
-  Review.create(reviews[2])
-  Review.create(reviews[3])
-  Review.create(reviews[4])
+  Experience.create(experiences[0])
+  Experience.create(experiences[1])
+  Experience.create(experiences[2])
+  Experience.create(experiences[3])
+  Experience.create(experiences[4])
+  Experience.create(experiences[5])
 }
 
 module.exports = seedyFunction

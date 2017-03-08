@@ -2,7 +2,7 @@
   "development": {
     "username": "Kuang",
     "password": null,
-    "database": "yalp",
+    "database": "linkedin",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },

@@ -17,7 +17,8 @@ app.get('/*', function(req, res) {
 })
 
 
-db.sequelize.sync().then(function() {
+db.sequelize.sync({force: true}).then(function() {
+  seedFunction()
   app.listen(3000)
 })
 
