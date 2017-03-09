@@ -20,7 +20,7 @@ const SinglePerson = React.createClass({
 	render: function() {
 		return (
 			<div>
-				<h1>Single Person</h1>
+				<h1>Single Person!</h1>
 			</div>
 		)
 	}
