@@ -46,4 +46,4 @@ You will need to use `react-router` to determine what components are displayed o
 For each experience, add a button that renders a form that allows for editing of that experience.
 
 ### Delete Experience Button [5 points]
-Place a button inside each experience component that'll be remove that experience fomr the person's profile.
+Place a button inside each experience component that'll be remove that experience from the person's profile.
