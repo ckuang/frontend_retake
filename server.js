@@ -16,7 +16,6 @@ app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, '/views/index.html'))
 })
 
-
 db.sequelize.sync({force: true}).then(function() {
   seedFunction()
   app.listen(3000)
